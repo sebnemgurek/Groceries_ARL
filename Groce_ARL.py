@@ -5,7 +5,7 @@ import pandas as pd
 from mlxtend.frequent_patterns import apriori, association_rules
 
 # Loading dataset
-df_ = pd.read_csv("HAFTA_04/1-Notes/groce/Groceries_dataset.csv")
+df_ = pd.read_csv("Groceries_dataset.csv")
 df = df_.copy()
 df.head()
 
